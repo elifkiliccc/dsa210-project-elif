@@ -1,22 +1,58 @@
 # Sleep, Screen Time and Productivity Analysis
 
-## Project Description
-In this project, I analyzed the relationship between sleep hours, screen time, and productivity. The data was collected manually over several days.
+## Objective
+This project investigates the relationship between sleep duration, screen time and productivity.
 
-## Data Collection
-- Screen time data was obtained from my phone.
-- Sleep hours were recorded manually.
-- Productivity was measured using a self-evaluation scale.
-- Task count was also included to provide a more objective measure of productivity.
+## Dataset
+The dataset contains approximately 30 days of manually collected observations including:
+- Screen time
+- Sleep hours
+- Task count
 
-## Analysis
-I created several graphs to understand the relationships between variables:
-- Sleep vs Productivity
-- Screen Time vs Productivity
-- Task Count over Time
+Data collection period:
+April 5, 2026 – May 5, 2026
+
+## Methods
+- Data visualization
+- Correlation analysis
+- Linear regression model
+- Prediction analysis
 
 ## Findings
-There is a positive relationship between sleep duration and productivity. Higher sleep hours generally correspond to better performance. On the other hand, screen time does not show a strong positive relationship and may even have a negative effect in some cases. Task count provides a more objective way to measure productivity.
+Correlation analysis suggests:
+- Sleep hours positively affect productivity
+- Higher screen time tends to reduce productivity
+- Sleep shows stronger influence than screen time
 
-## Conclusion
-The results suggest that sleep plays an important role in improving productivity, while excessive screen time may reduce it.
+## Machine Learning Results
+
+Model: Linear Regression
+
+Performance:
+
+- MAE ≈ 0.47
+- R² ≈ 0.55
+
+The model captured general trends but is limited because of the small manually collected dataset.
+
+## Limitations
+- Small sample size (~30 days)
+- Manual data collection
+- Results may not generalize
+
+## Future Work
+Future analysis could include:
+- Mood
+- Exercise
+- Stress level
+- Longer observation period
+
+## How to run
+
+Install dependencies:
+
+pip install pandas numpy matplotlib scikit-learn
+
+Open notebook:
+
+Elif Kılıç dsa proj-1.ipynb
